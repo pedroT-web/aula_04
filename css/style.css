@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import paga o endereço da onde está vindo a informação desejada */
+
+
+*{
+    margin: 0;
+    /* define o tamanho da margem */
+}
+
+/* @font-face Para configurar a face da fonte */
+@font-face {
+    font-family:'Roboto Mono';
+    /* Define o nome que vai se chamar a fonte */
+    src: url('../font/RobotoMono-VariableFont_wght.ttf')
+    /* Caminho de onde está armazenado a sua fonte */
+}
+
+.fundo{
+    background-image: url('../img/personagem-verso.avif');
+    /* background-image: define a imagem de fundo */
+    /* .. serve para voltar uma pasta e . serve para dizer que é a partir de onde está atualmente */
+
+    background-size: cover;
+    /* Define o tamanho que tera o fundo */
+    background-position: center;
+    /* Define a posição que ficara o fundo */
+
+    height: 100vh;
+    /* height define o quanto de espaço vai ocupar na tela,
+     vh é de Viewport Heigh serve para definir o quanto porcento da tela a imagem vai ocupar*/
+
+     /* align-items:center; */
+     /* align-self: center; */
+     align-content: center;
+     /* Alinha todo o conteudo no centro da página */
+}
+
+.titulo{
+    color:aliceblue;
+    font-size: 30px;
+    text-align:center;
+    /* Alinha o texto */
+
+    /* justify-content:center; */
+    /* Alinha o texto */
+
+    font-family: 'Roboto Mono', 'Arial';
+    /* fonte que vai ser usada */
+    font-weight: 700;
+    /* grossura da fonte */
+    font-style: normal;
+    /* Muda o estilo da fonte */
+}
